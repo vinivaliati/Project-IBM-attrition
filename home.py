@@ -5,7 +5,7 @@ from notebooks.src.config import DADOS_TRATADOS, MODELO_FINAL
 
 @st.cache_data
 def load_data():
-    return pd.read_parquet(dados/employee_attrition.parquet)
+    return pd.read_parquet('dados/employee_attrition.parquet')
 
 
 @st.cache_resource
