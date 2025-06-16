@@ -1,5 +1,8 @@
 import pandas as pd
 import streamlit as st
+from sklearn.linear_model import LogisticRegression
+from sklearn.preprocessing import StandardScaler
+from sklearn.compose import ColumnTransformer
 
 from joblib import load
 
