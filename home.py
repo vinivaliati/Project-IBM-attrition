@@ -9,6 +9,7 @@ from sklearn.pipeline import Pipeline
 def load_data():
     return pd.read_parquet('dados/employee_attrition.parquet')
 
+@st.cache_data
 def load_model():
     return load("modelos/logistic_regression.joblib")
 
