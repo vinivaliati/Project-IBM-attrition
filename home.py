@@ -13,7 +13,7 @@ def load_data():
 
 @st.cache_resource
 def load_model():
-    return load(MODELO_FINAL)
+    return load('modelos/logistic_regression.joblib')
 
 
 df = load_data()
