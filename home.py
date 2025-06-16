@@ -10,7 +10,7 @@ def load_data():
     return pd.read_parquet('dados/employee_attrition.parquet')
 
 def load_model():
-    return load('modelos/logistic_regression.joblib')
+    return load(r"C:\Users\viniv\Documents\Data science\Portifolio\Projeto IBM attrition\modelos\logistic_regression.joblib")
 
 model = load_model()
 df = load_data()
