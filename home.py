@@ -1,26 +1,19 @@
 import pandas as pd
 import streamlit as st
+from joblib import load
 from sklearn.linear_model import LogisticRegression
 from sklearn.preprocessing import StandardScaler
-from sklearn.compose import ColumnTransformer
-
-from joblib import load
-
-from notebooks.src.config import DADOS_TRATADOS, MODELO_FINAL
-
+from sklearn.pipeline import Pipeline
 
 @st.cache_data
 def load_data():
     return pd.read_parquet('dados/employee_attrition.parquet')
 
-
-@st.cache_resource
 def load_model():
     return load('modelos/logistic_regression.joblib')
 
-
-df = load_data()
 model = load_model()
+df = load_data()
 
 education_levels_text = {
     1: "Below College",
