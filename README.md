@@ -2,7 +2,7 @@
 
 ```
 ├── .gitignore <- Files and directories to be ignored by Git
-├── environment.yml <- The requirements file to reproduce the analysis environment (I use this environment as the default in all my portfolio projects).
+├── environment.txt <- The requirements file to reproduce the analysis environment (I use this environment as the default in all my portfolio projects).
 ├── README.md <- Main README for developers using this project.
 |
 ├── data <- Data files for the project.
@@ -10,9 +10,6 @@
 ├── models <- Trained and serialized models, model predictions, or model summaries.
 |
 ├── notebooks <- Jupyter notebooks. Naming convention is a number (for ordering),
-│ creator initials and a short description separated by -, e.g.,
-│ 01-fb-initial-data-exploration.
-│
 | └── src <- Source code for use in this project.
 | │
 | ├── init.py <- Makes this a Python module
@@ -22,7 +19,7 @@
 |
 ├── references <- Data dictionaries, manuals, and other explanatory materials.
 |
-├── reports <- Analyses generated in HTML, PDF, LaTeX, etc.
+├── relatorios <- Analyses generated in HTML, PDF, LaTeX, etc.
 │ └── images <- Plots and figures generated for reports
 ```
 ![Demonstração do App](relatorios/imagens/gif.gif)
