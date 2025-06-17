@@ -31,7 +31,7 @@ This project aims to develop a predictive model capable of estimating the **prob
 In addition to exploratory data analysis and testing various machine learning algorithms, the final model selected was **Logistic Regression** due to its strong performance and high interpretability for practical business application.
 
 **Access the interactive Streamlit app here:** 
-[[Steamlit](https://project-ibm-attrition-vinicius-valiati.streamlit.app)]
+[Steamlit](https://project-ibm-attrition-vinicius-valiati.streamlit.app)
 
 **Read the full article about the dataset and project details here:**  
 [Project IBM Attrition Analysis](https://impossible-gondola-c84.notion.site/Project-IBM-attrition-214ffb9f9866807fb05ef42a1ee375a7)
