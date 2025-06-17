@@ -38,7 +38,7 @@ In addition to exploratory data analysis and testing various machine learning al
 
 ---
 
-## About the Dataseta
+## About the Dataset
 
 The dataset used in this project is the **IBM HR Analytics Employee Attrition & Performance**, available on Kaggle.
 
