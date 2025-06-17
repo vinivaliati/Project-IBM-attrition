@@ -25,7 +25,7 @@
 ├── reports <- Analyses generated in HTML, PDF, LaTeX, etc.
 │ └── images <- Plots and figures generated for reports
 ```
-
+![Demonstração do App](relatorios/imagens/gif.gif)
 
 # Employee Attrition Prediction - IBM HR Analytics
 
