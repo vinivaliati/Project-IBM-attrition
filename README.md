@@ -24,7 +24,7 @@ The dataset used in this project is the **IBM HR Analytics Employee Attrition & 
 
 ---
 
-## Organização do projeto
+## Organization
 
 ```
 ├── .gitignore <- Files and directories to be ignored by Git
