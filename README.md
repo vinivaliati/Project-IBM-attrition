@@ -1,4 +1,4 @@
- Employee Attrition Prediction - IBM HR Analytics
+# Employee Attrition Prediction - IBM HR Analytics
 
 This project aims to develop a predictive model capable of estimating the **probability of an employee leaving the company** (*attrition*), based on a dataset simulating a Human Resources scenario. This analysis is valuable for helping companies make more strategic decisions regarding **talent retention** and **workforce management**.
 
