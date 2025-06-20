@@ -1,3 +1,29 @@
+# Employee Attrition Prediction - IBM HR Analytics
+
+This project aims to develop a predictive model capable of estimating the **probability of an employee leaving the company** (*attrition*), based on a dataset simulating a Human Resources scenario. This analysis is valuable for helping companies make more strategic decisions regarding **talent retention** and **workforce management**.
+
+In addition to exploratory data analysis and testing various machine learning algorithms, the final model selected was **Logistic Regression** due to its strong performance and high interpretability for practical business application.
+
+**Access the interactive Streamlit app here:** 
+[Steamlit](https://project-ibm-attrition-vinicius-valiati.streamlit.app)
+
+**Read the full article about the dataset and project details here:**  
+[Project IBM Attrition Analysis](https://impossible-gondola-c84.notion.site/Project-IBM-attrition-214ffb9f9866807fb05ef42a1ee375a7)
+
+![Demonstração do App](relatorios/imagens/gif.gif)
+
+---
+
+## About the Dataseta
+
+The dataset used in this project is the **IBM HR Analytics Employee Attrition & Performance**, available on Kaggle.
+
+**Objective**: Predict whether an employee will leave the company (target variable `Attrition`).
+
+📁 [Dataset link on Kaggle](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset/data)
+
+---
+
 ## Organização do projeto
 
 ```
@@ -22,31 +48,6 @@
 ├── relatorios <- Analyses generated in HTML, PDF, LaTeX, etc.
 │ └── images <- Plots and figures generated for reports
 ```
-![Demonstração do App](relatorios/imagens/gif.gif)
-
-# Employee Attrition Prediction - IBM HR Analytics
-
-This project aims to develop a predictive model capable of estimating the **probability of an employee leaving the company** (*attrition*), based on a dataset simulating a Human Resources scenario. This analysis is valuable for helping companies make more strategic decisions regarding **talent retention** and **workforce management**.
-
-In addition to exploratory data analysis and testing various machine learning algorithms, the final model selected was **Logistic Regression** due to its strong performance and high interpretability for practical business application.
-
-**Access the interactive Streamlit app here:** 
-[Steamlit](https://project-ibm-attrition-vinicius-valiati.streamlit.app)
-
-**Read the full article about the dataset and project details here:**  
-[Project IBM Attrition Analysis](https://impossible-gondola-c84.notion.site/Project-IBM-attrition-214ffb9f9866807fb05ef42a1ee375a7)
-
----
-
-## About the Dataseta
-
-The dataset used in this project is the **IBM HR Analytics Employee Attrition & Performance**, available on Kaggle.
-
-**Objective**: Predict whether an employee will leave the company (target variable `Attrition`).
-
-📁 [Dataset link on Kaggle](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset/data)
-
----
 
 ## Attrition vs. Turnover
 
